@@ -3,12 +3,12 @@ layout: post
 title: MTA Turnstile Analysis and Metis Week 1
 ---
 
-#Metis:
+# Metis:
 
 Today was the start of my second of twelve weeks as a data science student at Metis in Chicago. Throughout the program I'll be working on five data science projects as I learn some of skills necessary to be an effective data scientist
 data science bootcamp. The curriculum for week one included python libraries: pandas, matplotlib, and seaborn.
 
-#MTA Turnstile Analysis:
+# MTA Turnstile Analysis:
 
 **The Task**
 
