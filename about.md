@@ -4,20 +4,14 @@ title: About
 permalink: /about/
 ---
 
-I'm a graduate of the University of Wisconsin - Madison, where I earned my BA in Economics and Statistics with minors in German and Actuarial Science. Currently, I am attending [Metis](https://www.thisismetis.com/) data science bootcamp in Chicago as I look to start a career as a data scientist.
+I’m Jeremy Betz. I work at the intersection of data science, quantitative research, education, and football (soccer).
 
-### Interests
-* Education
-* Football (Soccer)
-* Game Theory
-* Nutrition
-* Philanthropy
-* Politics
-* Renewable Energy
-* Sustainability
-* Space Exploration
+I studied Statistics and Economics at the University of Wisconsin–Madison, completed data science training at Metis, and am currently pursuing an M.S. in Data Science at the University of Colorado Boulder.
 
+The common thread through most of what interests me is trying to understand how complicated systems work. I like breaking problems into measurable pieces, studying how those pieces interact, testing explanations, and figuring out what the evidence actually supports.
 
-### Contact me
+Football is a natural place to do that work. I have coached soccer for more than a decade, and my current research uses tracking data to study the relationship between attacking movement, defensive organization, and space. Coaching has also made the questions feel practical: the value of an explanation is not only whether it is technically sound, but whether it helps someone see the game more clearly.
 
-[jeremy@betz.mx](mailto:jeremy@betz.mx)
+I am also drawn to education and tutoring, game theory, economics, science, music theory, gaming, and public-interest work—from transit reliability to sustainability. Across those interests, I am interested in quantitative research that is both rigorous and socially useful, and in explaining how things work without pretending the evidence says more than it does.
+
+You can find current work on [GitHub](https://github.com/JeremyBetz) and more detail on the [Projects]({{ site.baseurl }}/projects/) page.

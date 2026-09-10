@@ -2,17 +2,33 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<section class="home-intro">
+  <h1>Jeremy Betz</h1>
+  <p class="home-lede">Data science, quantitative research, and soccer analytics.</p>
+  <p>I work on problems where complex systems, careful measurement, and clear explanations meet. That includes football research, public-interest data, and questions about how people, incentives, and structures shape outcomes.</p>
+</section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<section class="home-section">
+  <h2>Current Work</h2>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+  <article>
+    <h3><a href="https://github.com/JeremyBetz/moving-the-defense">Moving the Defense</a></h3>
+    <p>Independent football tracking-data research examining the relationship between off-ball attacking movement and localized defensive reorganization across multiple data providers.</p>
+  </article>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+  <article>
+    <h3>Analytics Cup 2.0</h3>
+    <p>An exploratory project on defensive positioning from a network perspective: how defenders may disrupt attacking spatial connections while preserving defensive structure.</p>
+  </article>
+
+  <article>
+    <h3>Chicago Transit Data Observatory</h3>
+    <p>An early-stage API-to-database analytical project focused on Chicago transit reliability.</p>
+  </article>
+</section>
+
+<section class="home-section">
+  <h2>Background</h2>
+  <p>M.S. Data Science candidate at the University of Colorado Boulder; B.A. in Statistics and Economics from the University of Wisconsin–Madison; Metis data science training.</p>
+  <p><a href="https://github.com/JeremyBetz">GitHub</a> · <a href="https://www.linkedin.com/in/jeremy-betz/">LinkedIn</a> · <a href="{{ site.baseurl }}/projects/">Projects</a> · <a href="{{ site.baseurl }}/archive/">Archive</a></p>
+</section>
