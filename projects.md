@@ -26,7 +26,7 @@ An API-to-database analytical project organized around the question: how reliabl
 
 ## Selected Past Work
 
-### [MLS International Roster Spot Valuation Tool](https://github.com/JeremyBetz/ussf_Hackathon)
+### [MLS International Roster Spot Valuation Tool](https://devpost.com/software/mls-international-roster-spot-valuation-tool)
 
 **Status: Completed**
 
