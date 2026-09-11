@@ -4,7 +4,7 @@ title: Archive
 permalink: /archive/
 ---
 
-Earlier writing and project notes are kept here as a record of the site’s history.
+Writing and project notes are kept here as a record of the site’s history and current work.
 
 <ul class="archive-list">
 {% for post in site.posts %}
