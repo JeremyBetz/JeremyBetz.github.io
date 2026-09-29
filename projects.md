@@ -8,15 +8,19 @@ permalink: /projects/
 
 ### [Moving the Defense](https://github.com/JeremyBetz/moving-the-defense)
 
-**Status: Active research**
+**Status: Active research with replicated results**
 
-An independent football tracking-data research project on the relationship between off-ball attacking movement and localized defensive reorganization. It reports replicated time-ordered associations across Metrica and IDSSE data, plus a replicated directional difference between outward and goalward movement in SkillCorner Open Data. These are observational measurements—not claims of causation, tactical value, player quality, or defensive responsibility—and are intended to support careful follow-up analysis and video review.
+An independent football tracking-data research project that measures movement by defenders nearest an off-ball attacker relative to the wider defensive unit. Across separate IDSSE and SkillCorner cohorts, straight outward movement was associated with more subsequent localized defensive reorganization than comparable movement toward goal. The directional difference replicated across seven IDSSE matches, nine original SkillCorner matches, and ten prospectively held-out SkillCorner matches. A public <a href="https://jeremybetz.github.io/moving-the-defense/">analyst demo</a> shows representative passages, diagnostic context, and rejected quality-control examples.
+
+These are observational geometric measurements—not claims of causation, tactical value, player quality, marking responsibility, or defensive effectiveness. The work is designed to support careful follow-up analysis and video review.
 
 ### [Disrupting the Network — Analytics Cup 2.0](https://github.com/JeremyBetz/defensive-network-disruption)
 
-**Status: Exploratory / in development**
+**Status: Active research and experimental software**
 
-Exploratory research for the PySport Analytics Cup 2.0 (USA, Football) using permitted SkillCorner Australia A-League 2024/25 data. It begins with a question about what makes an attacking connection viable and how defender positioning may continuously weaken it. The repository contains a scaffold and research governance; no attacking-connection measure, cover-shadow measure, network-disruption metric, defensive-value model, or analysis pipeline has been validated or implemented.
+Research for the PySport Analytics Cup 2.0 (USA Football / Defensive Positioning challenge) using permitted SkillCorner Australia A-League 2024/25 data. The project models a transparent local carrier-to-receiver option network, then evaluates whether defensive geometry improves receiver ranking beyond attacking geometry alone. On ten protected matches, adding nearest-defender geometry improved mean reciprocal rank, Hit@1, and Hit@3 in every match; a distributed-proximity refinement produced a smaller, metric-dependent gain.
+
+The repository also includes the experimental, provider-independent <a href="https://github.com/JeremyBetz/defensive-network-disruption/releases/tag/v0.1.0">v0.1.0 Python package</a>, with synthetic examples, tests, visualization, and explicit data contracts. The results describe conditional receiver-choice ranking, not calibrated accessibility, suppression, causal defensive effects, pass success, tactical intent, player quality, or defensive value.
 
 ### Chicago Transit Data Observatory
 
